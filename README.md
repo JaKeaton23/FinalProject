@@ -6,6 +6,34 @@ Overview
 
 This project is a comprehensive implementation and visualization of various data structures, including AVL Trees, Binary Search Trees (BST), B-Trees, Red-Black Trees, Heaps, Priority Queues, Stacks, and Queues. It also features a GUI to visualize these structures using the SFML (Simple and Fast Multimedia Library) framework.
 
+Repository Structure on GitHub
+
+DataStructuresProject/
+|—— src/
+|   |—— Heap.cpp
+|   |—— BST.cpp
+|   |—— AVL.cpp
+|   |—— RedBlack.cpp
+|   |—— BTree.cpp
+|   |—— GUIManager.cpp
+|   —— main.cpp
+|—— include/
+|   |—— Heap.h
+|   |—— BST.h
+|   |—— AVL.h
+|   |—— RedBlack.h
+|   |—— BTree.h
+|   —— GUIManager.h
+|—— assets/
+|   —— fonts/
+|—— CMakeLists.txt
+|—— README.md
+—— LICENSE
+
+Overview
+
+This project is a comprehensive implementation and visualization of various data structures, including AVL Trees, Binary Search Trees (BST), B-Trees, Red-Black Trees, Heaps, Priority Queues, Stacks, and Queues. It also features a GUI to visualize these structures using the SFML (Simple and Fast Multimedia Library) framework.
+
 Features
 
 AVL Tree: Balanced binary search tree with insert, delete, and search operations.
@@ -23,28 +51,6 @@ Priority Queue: A queue implemented using a binary heap with customizable priori
 Stack and Queue: Basic stack and queue implementations using deque.
 
 GUI Visualization: Interactive visualization for the implemented data structures using SFML.
-
-File Structure
-
-AVL.cpp / AVL.h: Implementation of the AVL Tree.
-
-BST.cpp / BST.h: Implementation of the Binary Search Tree.
-
-BTree.cpp / BTree.h: Implementation of the B-Tree.
-
-RedBlack.cpp / RedBlack.h: Implementation of the Red-Black Tree.
-
-Heap.cpp / Heap.h: Implementation of the binary heap.
-
-PriorityQueue.cpp / PriorityQueue.h: Implementation of the priority queue.
-
-StackQueue.cpp / StackQueue.h: Implementation of the stack and queue.
-
-HeapVisualizer.cpp / HeapVisualizer.h: Visualizer for the binary heap using SFML.
-
-GUIManager.cpp / GUIManager.h: Manager for the graphical user interface and integration of visualizations.
-
-main.cpp: Entry point for the application.
 
 Prerequisites
 
